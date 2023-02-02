@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+.sos {
+    color: white;
+}
+
+body,
+.btn-outline-light {
+    font-family: Roboto, serif;
+    background: linear-gradient(90deg, rgb(255, 152, 224) 0%, #08FFFB 100%);
+}
+
+.nav-link:hover {
+    background-color: rgb(169, 166, 166);
+}
+
+.nav-link {
+    color: white;
+}
+
+.navbar-nav .nav-link.active {
+    color: aliceblue;
+}
+
+.logo {
+    width: 3em;
+}
+
+.navbar-toggler {
+    background-color: white;
+}
+
+.card {
+    box-shadow: 7px 8px 7px 0px #E13535;
+    border-width: 0;
+}
+
+/* .col-lg-8 {
+    margin-left: 2em;
+} */
+
+.sidebar {
+    color: rgb(255, 255, 255);
+    background: linear-gradient(270deg, rgb(255, 152, 224) 0%, #08FFFB 100%);
+    width: 125%;
+    border-style: solid;
+    border-color: beige;
+}
+
+.sidebar_yo {
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 0px;
+    background-color: rgb(253, 74, 74);
+    padding: 3px;
+    font-weight: 300;
+}
+
+.mainsb {
+    display: inline;
+    border-style: solid;
+    border-color: #ffffffd3;
+    border-width: 2px;
+    /* box-shadow: 1px 1px 10px 4px #fbff00; */
+    padding: 1px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: rgb(219, 206, 206);
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+.card .btn {
+    color: white;
+}
+
+.sb,
+.ftext {
+    color: white;
+    margin: auto auto;
+}
+
+footer {
+    background: linear-gradient(180deg, #02172c 3%, #0c263f 78%);
+    padding-top: 8px;
+}
+
+.ml {
+    display: flex;
+    justify-content: center;
+    /* выравнивает по вертикали */
+    align-items: center;
+    /* выравнивает по горизонтали */
+}
+
+.call {
+    animation: myAnim 3s ease 1s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 50%;
+	}
+
+	10% {
+		transform: rotate(8deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-10deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(10deg);
+	}
+
+	80% {
+		transform: rotate(-8deg);
+	}
+
+	90% {
+		transform: rotate(8deg);
+	}
+}
+
+@media (max-width: 991px) {
+    .fimg {
+        margin-bottom: 10px;
+    }
+}
+

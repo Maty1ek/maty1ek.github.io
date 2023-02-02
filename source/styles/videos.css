@@ -1,0 +1,33 @@
+.bgvi {
+    height: 73vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.bgvi video {
+    height: 73vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.effect {
+    height: 73vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 2;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.vdtxt {
+    color: rgb(255, 129, 217);
+    z-index: 2;
+}
